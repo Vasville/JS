@@ -5,9 +5,9 @@ arrevenNumsoddNums = (arr) => {
     let i = 0;
     let evenNums = [i], oddNums = [i];
     for(let i = 0;i<arr.length;i++){
-        if(typeof arr[i] <= "evenNums"){
+        if( arr[i] <= 0){
             evenNums.push(arr[i]);
-        }else if(typeof arr[i] >= "oddNums"){
+        }else if( arr[i] >= 0){
             oddNums.push(arr[i]);
         }
     }
